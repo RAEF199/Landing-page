@@ -1,0 +1,148 @@
+
+/*Style post page*/
+
+
+/*Header*/
+
+
+
+#bgImage{
+    background-image: url('backPost.jpeg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    z-index: -1;
+    height: 100%;
+    padding-top: 6.25em; 
+    padding-left: 4.375em;
+    padding-bottom: 0.625em;
+}
+
+/* content style */
+
+#container{
+    display:grid;
+    grid-template-areas:
+        'content'
+        'content'
+        'content'
+        'content'
+        'img'
+        'authorInfo'
+        'footer'
+        
+}
+
+#postPage{  
+    grid-area: content;
+    padding-left: 6.25em;
+    padding-right: 6.25em;
+    text-align: left;
+    margin-bottom: 1.25em;
+    
+}
+
+/* style for image and figure caption*/
+
+.pic img{
+    grid-area: img;
+    text-align: left;
+    padding-left: 3.125em;
+}
+
+.pic figcaption{
+    grid-area: img;
+    text-align: left;
+    padding-left: 3.125em;
+}
+
+/*author info*/
+
+#authorInfo img{
+    grid-area: authorInfo;
+    opacity:1;
+    border-radius: 50%;
+    width: 6.875em;
+    margin-top: 2.5em;
+    margin-left: 0.625em;  
+}
+
+#authorInfo{
+    grid-area: authorInfo;
+    text-align: center;
+    margin-bottom: 0.625em;
+}
+
+
+/*footer*/
+
+#footerID p{
+    margin:0.625em;
+}
+#footerID{
+    background:#581010;
+    color:#cccccc;
+    grid-area:footer; 
+    text-align: center;
+    margin: 0em;
+    
+    
+}
+
+/* media query*/
+
+@media (min-width: 820px){
+    
+
+
+
+
+    #container{
+    display:grid;
+    grid-template-areas:
+        'content'
+        'content'
+        'content'
+        'content'
+        'img'
+        'authorInfo'
+        'footer'
+        
+}
+
+    #postPage{  
+    grid-area: content;
+    padding-left: 6.25em;
+    padding-right: 6.25em;
+    text-align: left;
+    margin-bottom: 1.25em;
+    
+}
+
+/* style for image and figure caption*/
+
+.pic img{
+    width: 31.25em ;
+    grid-area: img;
+    text-align: left;
+    padding-left: 3.125em;
+}
+
+.pic figcaption{
+    grid-area: img;
+    text-align: left;
+    padding-left: 3.125em;
+}
+
+
+
+    
+
+    
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+
+
+
+/*Style both home page and post page*/
+
+
+/* style for whole page*/
+
+@import url("links.css");
+@import url("postPage.css");
+@import url("homePage.css");
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+body{
+    margin: 0;
+    background:#cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main list*/
+
+#main-list ul{
+    background:#2b2727;
+    display: flex;
+    color:#cccccc;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px;
+    margin: 0;
+    justify-content: space-around;
+    z-index: 1;  
+}
+
+#navBar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+
+

@@ -1,0 +1,161 @@
+
+
+/* Style for home page */
+
+/* HEADER*/
+
+
+.BG-image{
+    background-image: url('backHome.jpeg');
+    color: #ffffff;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    padding-top: 21.875em; 
+    padding-left: 4.375em;
+    padding-bottom: 1.25em;
+}
+
+
+
+/* MAIN */
+
+
+
+#mainID{
+    color:#2b2727;
+    padding-left:3.75em;
+}
+
+
+
+/*displaying box of posts*/
+
+#post-section{
+    display:grid;
+    grid-rows:repeat(1fr,5);
+    grid-template-areas:
+        'postTit'
+        'box1'
+        'box2'
+        'box3'
+        'box4';
+    background:#2b2727;
+    color:#cccccc;
+    margin-top: 5.625em;
+    margin-right:3.75em;
+    margin-bottom: 1.25em;
+    padding-bottom: 1.25em;
+    
+}
+
+#postTit{
+    grid-area:postTit;
+    padding-top: 20px;
+    text-align:center;
+}
+
+/*style for all boxes*/
+
+.box{
+    border: solid #cccccc;
+    margin-left:1.25em;
+    margin-right:1.25em;
+    margin-bottom:1.25em;
+    text-align:center;
+    padding:0em; 
+}
+
+/*boxes inside post section*/
+
+#box1{
+    grid-area:box1;
+}
+#box2{
+    grid-area:box2;
+}
+#box3{
+    grid-area:box3;
+}
+#box4{
+    grid-area:box4;
+}
+
+#paragraph{
+     padding:0em 3.125em;
+
+}
+
+/* image*/ 
+
+#post-section img{
+    width: 100%;
+    opacity: 0.4; 
+}
+
+/****************/
+#post-section img:hover{
+    opacity:1;
+}
+
+/*footer*/
+
+#endBage p{
+    margin:0.625em;
+}
+#endBage{
+    display: block;
+    background:#581010;
+    color:#cccccc;
+    text-align: center;
+    margin-right: 3.75em;
+    margin-left: 0.3125em;
+    padding: 0.0625em;
+    
+
+}
+
+/* button style */
+
+.butt{
+    display: inline-block;
+    color: #cccccc;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    background-color: #333333;
+    transition-duration: 0.5s;
+    border:  solid #cccccc;
+    
+    
+}
+
+
+
+.butt:hover {
+  background-color: #cccccc;
+  border:  solid #333333;
+  color: #333333;
+}
+
+/* active the section*/
+
+.active{
+    background-color:#cccccc;
+    color: #333333;
+}
+
+.nactive{
+    background-color:#333333;
+    color: #cccccc;
+}
+
+
+
+
+
+
+

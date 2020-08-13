@@ -1,0 +1,33 @@
+
+
+/*links style*/
+
+.links{
+    display: inline-block;
+    background:#2b2727;
+    color:#cccccc;
+    text-decoration: none;
+    padding:10px;
+    text-align: center;
+    font-size: 16px;
+   /* box-shadow: 0 1px 5px rgb(104, 104, 104, 0.8);*/
+}
+
+.links:hover{
+    background:#cccccc;
+    color:#2b2727; 
+    box-shadow: 0 1px 5px rgb(0, 0, 0, 0.8);
+}
+
+/* icons style*/
+
+.fab.fa-twitter{
+    color: #cccccc;
+}
+
+.fab.fa-instagram{
+    color: #cccccc;
+}
+.fab.fa-linkedin-in{
+    color: #cccccc;
+}
